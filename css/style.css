@@ -855,6 +855,9 @@ span.social-text{
 }
 
 /* -------- 1.portfolio details css ------- */
+#portfolio {display: none;
+
+};
 .portfolio-details-content h2 {
 	font-size: 36px;
 }
@@ -1114,7 +1117,8 @@ span.social-text{
 .contact-form-wrapper h2,.reply-form{
 	font-size: 36px;
 }
-.map-wrapper {
+.map-wrapper { 
+	display: none;
 	width: 100%;
 	height: 364px;
 	z-index: 1;
